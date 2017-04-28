@@ -1,0 +1,21 @@
+Hello there,
+
+1. open the folder, there you will see 2 folder.
+2. Open Winerama in that folder again there is one folder open that one
+3. Now run the manage.py in localhost
+4. The site will be running and you can see the comments and all, For commenting on any item you need to have a account in that. So, simple create an account in that and use it.
+
+-----------------------------------------------------------------
+
+Now copy db.sqlite3 and paste it in another folder 'Project Final' and rename it to 'test.db'
+
+5. Open Pycharm and run the file 'extract_from_db.py'. It will extract all the file comments from the database and store it in 'out.csv' file
+6. Run analysis.py and it will give the result.
+
+
+NOTE:-
+
+No need to open other python files.
+-->wordBase.py is used to store all the synonyms of 'good,bad and neutral'word and assign them a value of 1,-1,0 respectively and store them   in Knowledgebasenew.db database
+--> tagging.py is used to tag the words comments with POS and extract nouns and adjectives from it. Although some part of code has been pasted in analysis.py. So need to run this file.
+
